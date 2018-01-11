@@ -1,13 +1,13 @@
 //
 //  AppDelegate.m
-//  ZHTabBarViewController
+//  ZHTabViewController
 //
-//  Created by 李保征 on 2018/1/11.
+//  Created by 李保征 on 2018/1/10.
 //  Copyright © 2018年 李保征. All rights reserved.
 //
 
 #import "AppDelegate.h"
-#import "ViewController.h"
+#import "MyTabBarController.h"
 
 @interface AppDelegate ()
 
@@ -17,12 +17,11 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    ViewController *vc = [[ViewController alloc] init];
+    
+    MyTabBarController *rootVC = [[MyTabBarController alloc] init];
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    
-    self.window.rootViewController = vc;
-    
+    self.window.rootViewController = rootVC;
     [self.window makeKeyAndVisible];
     
     return YES;
@@ -57,3 +56,4 @@
 
 
 @end
+

@@ -14,6 +14,14 @@
 		0F5E004D200706FA008B3C56 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F5E004C200706FA008B3C56 /* main.m */; };
 		0F5E0057200706FA008B3C56 /* ZHTabBarViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F5E0056200706FA008B3C56 /* ZHTabBarViewControllerTests.m */; };
 		0F5E0062200706FA008B3C56 /* ZHTabBarViewControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F5E0061200706FA008B3C56 /* ZHTabBarViewControllerUITests.m */; };
+		0F5E007F20070825008B3C56 /* BZHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F5E007020070822008B3C56 /* BZHomeViewController.m */; };
+		0F5E008020070825008B3C56 /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F5E007120070823008B3C56 /* UIBarButtonItem+Extension.m */; };
+		0F5E008120070825008B3C56 /* CCircleSingleTopicView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F5E007220070823008B3C56 /* CCircleSingleTopicView.m */; };
+		0F5E008220070825008B3C56 /* MyTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F5E007320070823008B3C56 /* MyTabBarController.m */; };
+		0F5E008320070825008B3C56 /* MyNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F5E007420070823008B3C56 /* MyNavigationController.m */; };
+		0F5E008420070825008B3C56 /* BZMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F5E007520070823008B3C56 /* BZMessageViewController.m */; };
+		0F5E008520070825008B3C56 /* MyMiddleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F5E007620070823008B3C56 /* MyMiddleViewController.m */; };
+		0F5E008620070825008B3C56 /* CCirclePublishTopicView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F5E007A20070824008B3C56 /* CCirclePublishTopicView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +57,22 @@
 		0F5E005D200706FA008B3C56 /* ZHTabBarViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZHTabBarViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F5E0061200706FA008B3C56 /* ZHTabBarViewControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHTabBarViewControllerUITests.m; sourceTree = "<group>"; };
 		0F5E0063200706FA008B3C56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F5E006F20070822008B3C56 /* MyMiddleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyMiddleViewController.h; sourceTree = "<group>"; };
+		0F5E007020070822008B3C56 /* BZHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BZHomeViewController.m; sourceTree = "<group>"; };
+		0F5E007120070823008B3C56 /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
+		0F5E007220070823008B3C56 /* CCircleSingleTopicView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCircleSingleTopicView.m; sourceTree = "<group>"; };
+		0F5E007320070823008B3C56 /* MyTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTabBarController.m; sourceTree = "<group>"; };
+		0F5E007420070823008B3C56 /* MyNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyNavigationController.m; sourceTree = "<group>"; };
+		0F5E007520070823008B3C56 /* BZMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BZMessageViewController.m; sourceTree = "<group>"; };
+		0F5E007620070823008B3C56 /* MyMiddleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyMiddleViewController.m; sourceTree = "<group>"; };
+		0F5E007720070824008B3C56 /* MyNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyNavigationController.h; sourceTree = "<group>"; };
+		0F5E007820070824008B3C56 /* BZMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BZMessageViewController.h; sourceTree = "<group>"; };
+		0F5E007920070824008B3C56 /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
+		0F5E007A20070824008B3C56 /* CCirclePublishTopicView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCirclePublishTopicView.m; sourceTree = "<group>"; };
+		0F5E007B20070824008B3C56 /* CCirclePublishTopicView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCirclePublishTopicView.h; sourceTree = "<group>"; };
+		0F5E007C20070824008B3C56 /* BZHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BZHomeViewController.h; sourceTree = "<group>"; };
+		0F5E007D20070824008B3C56 /* CCircleSingleTopicView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCircleSingleTopicView.h; sourceTree = "<group>"; };
+		0F5E007E20070824008B3C56 /* MyTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTabBarController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +127,22 @@
 				0F5E003E200706FA008B3C56 /* AppDelegate.m */,
 				0F5E0040200706FA008B3C56 /* ViewController.h */,
 				0F5E0041200706FA008B3C56 /* ViewController.m */,
+				0F5E007E20070824008B3C56 /* MyTabBarController.h */,
+				0F5E007320070823008B3C56 /* MyTabBarController.m */,
+				0F5E007720070824008B3C56 /* MyNavigationController.h */,
+				0F5E007420070823008B3C56 /* MyNavigationController.m */,
+				0F5E007C20070824008B3C56 /* BZHomeViewController.h */,
+				0F5E007020070822008B3C56 /* BZHomeViewController.m */,
+				0F5E007820070824008B3C56 /* BZMessageViewController.h */,
+				0F5E007520070823008B3C56 /* BZMessageViewController.m */,
+				0F5E007B20070824008B3C56 /* CCirclePublishTopicView.h */,
+				0F5E007A20070824008B3C56 /* CCirclePublishTopicView.m */,
+				0F5E007D20070824008B3C56 /* CCircleSingleTopicView.h */,
+				0F5E007220070823008B3C56 /* CCircleSingleTopicView.m */,
+				0F5E006F20070822008B3C56 /* MyMiddleViewController.h */,
+				0F5E007620070823008B3C56 /* MyMiddleViewController.m */,
+				0F5E007920070824008B3C56 /* UIBarButtonItem+Extension.h */,
+				0F5E007120070823008B3C56 /* UIBarButtonItem+Extension.m */,
 				0F5E0046200706FA008B3C56 /* Assets.xcassets */,
 				0F5E0048200706FA008B3C56 /* LaunchScreen.storyboard */,
 				0F5E004B200706FA008B3C56 /* Info.plist */,
@@ -261,9 +301,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F5E008420070825008B3C56 /* BZMessageViewController.m in Sources */,
 				0F5E0042200706FA008B3C56 /* ViewController.m in Sources */,
+				0F5E007F20070825008B3C56 /* BZHomeViewController.m in Sources */,
+				0F5E008520070825008B3C56 /* MyMiddleViewController.m in Sources */,
+				0F5E008620070825008B3C56 /* CCirclePublishTopicView.m in Sources */,
 				0F5E004D200706FA008B3C56 /* main.m in Sources */,
 				0F5E003F200706FA008B3C56 /* AppDelegate.m in Sources */,
+				0F5E008120070825008B3C56 /* CCircleSingleTopicView.m in Sources */,
+				0F5E008320070825008B3C56 /* MyNavigationController.m in Sources */,
+				0F5E008220070825008B3C56 /* MyTabBarController.m in Sources */,
+				0F5E008020070825008B3C56 /* UIBarButtonItem+Extension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
