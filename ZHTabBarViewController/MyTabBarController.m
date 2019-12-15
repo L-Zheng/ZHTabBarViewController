@@ -22,6 +22,14 @@
 
 @implementation MyTabBarController
 
+/**
+tabbarItem 在pop时候跳动问题：： pop页面后 返回到 tabContrtoller首页  如果tabBar有跳动问题  设置代码
+ [self.tabBar setTranslucent:NO];
+ 
+ tabbarItem 在push时延时隐藏 有卡顿效果   设置：不要在目标Controller的viewWillLayoutSubviews方法中 设置view。frame
+ 
+ */
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
@@ -43,7 +51,7 @@
     self.home = home;
     
     MyMiddleViewController *middleVC = [[MyMiddleViewController alloc] init];
-    [self addOneChlildVc:middleVC title:nil imageName:@"tab_publish" selectedImageName:@"tab_publish"];
+    [self addOneChlildVc:middleVC title:@"中间" imageName:@"tab_publish" selectedImageName:@"tab_publish"];
     middleVC.tabBarItem.image = [[UIImage imageNamed:@"tab_publish"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     middleVC.tabBarItem.selectedImage = [[UIImage imageNamed:@"tab_publish"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     self.middleVC = middleVC;
